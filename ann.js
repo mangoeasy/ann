@@ -605,7 +605,7 @@ p.nominalBounds = new cjs.Rectangle(59.5,79,136.2,17.3);
 p.nominalBounds = new cjs.Rectangle(-8.3,0,529.6,723.5);
 
 
-(lib.qweqet = function(mode,startPosition,loop) {
+(lib.pageStart = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 6
@@ -1186,8 +1186,8 @@ p.nominalBounds = new cjs.Rectangle(-8.3,0,529.6,723.5);
 (lib.ann = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// iuiuihh
-	this.instance = new lib.qweqet("synched",0);
+	// cover
+	this.instance = new lib.pageStart("synched",0);
 	this.instance.setTransform(322.9,407.5,1,1,0,0,0,260.6,358);
 
 	this.instance_1 = new lib.sfgw2("synched",0,false);
